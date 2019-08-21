@@ -2,4 +2,4 @@ language: c
 compiler: gcc
 script:
  - make hello
- - ./hello
+ - ./hello | grep 'Hello World$'
